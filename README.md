@@ -24,6 +24,6 @@ Place all media in `assets`. **Please** organize media by posts as it gets confu
 - [ ] Fix and enrich posts from WECode 
 - [ ] Update [past events](https://wicsumass.github.io/past-events) page (currently shows default filler from theme) 
 - [ ] Change header size on desktop (works fine on mobile, too short for desktop) 
-- [ ] Create and use placeholder favicon 
+- [x] Create and use placeholder favicon 
 - [ ] Decide on material for [front page](https://wicsumass.github.io) - news feed or others? 
 - [ ] Add `news` page
