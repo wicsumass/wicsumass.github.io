@@ -13,7 +13,7 @@ Place all media in `assets`. **Please** organize media by posts as it gets confu
 ### Developing locally
 
 0. Install `ruby` if it's not installed
-1. Clone the repo (HTTPS: `git clone https://github.com/wicsumass/wicsumass.github.io.git`) and `cd` into the cloned directory
+1. Clone the repo and `cd` into the cloned directory
 2. Type `gem install jekyll` to install Jekyll
 3. Type `bundle install` to install dependencies
 4. Type `jekyll serve` to preview changes locally. Note that all updates should be dynamic with the exception of `_config.yml` (which really shouldn't be touched much, unless something's broken...) 
