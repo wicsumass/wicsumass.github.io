@@ -21,7 +21,8 @@ Place all media in `assets`. **Please** organize media by posts as it gets confu
 
 ### Todo list for the website
 
-- [ ] Fix and enrich posts from WECode 
+- [x] Fix and enrich posts from WECode (**Completed 03/14/18**)
+- [ ] Fix thumbnail/gallery issues
 - [ ] Update [past events](https://wicsumass.github.io/past-events) page (currently shows default filler from theme) 
 - [ ] Change header size on desktop (works fine on mobile, too short for desktop) 
 - [x] Create and use placeholder favicon (**Completed 03/10/18**) 
