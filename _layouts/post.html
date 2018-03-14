@@ -10,6 +10,10 @@ layout: default
     </p>
   </header>
   <section class="post-content">{{ content }}</section>
+  
+  <!-- Gallery, second type -->
+  {% include gallery_header.html %}
+  {% if page.gallery == true %} {% include gallery.html %} {% endif %}
    
    <!-- Tag list -->
   {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
