@@ -11,8 +11,9 @@ layout: default
   </header>
   <section class="post-content">{{ content }}</section>
   
-  <!-- Gallery, second type -->
+  <!-- Gallery -->
   {% include gallery_header.html %}
+  {% include lightbox.html %}
   {% if page.gallery == true %} {% include gallery.html %} {% endif %}
    
    <!-- Tag list -->
