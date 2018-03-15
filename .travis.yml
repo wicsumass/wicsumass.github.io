@@ -8,17 +8,17 @@ deploy:
   provider: pages
   skip-cleanup: true
   keep-history: true
-  target-branch: gh-pages
+  target-branch: master
   github-token: $GH_TOKEN  
   on:
-    branch: master
+    branch: src
 
 notifications:
   email: false
 
 branches:
   only:
-  - master
+  - src
 
 env:
   global:
