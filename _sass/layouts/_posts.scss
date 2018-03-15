@@ -71,6 +71,9 @@ header {
         @extend %padding-regular;
         padding-bottom: 0;
     }
+    .gallery {
+        @extend %padding-regular;
+    }
     footer {
         @extend %padding-regular;
         padding-top: 0;

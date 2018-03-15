@@ -81,12 +81,17 @@ collections:
     output: true
     permalink: /:collection/:name
 
+# GALLERY
+thumbnail_gallery:
+  width:  300
+  height: 200
+
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag, rmagick]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png","vendor"]
