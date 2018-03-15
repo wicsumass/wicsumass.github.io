@@ -4,12 +4,20 @@ rvm:
 - 2.3.3
 script: "bundle install & bundle exec jekyll build"
 
+deploy:
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  target-branch: gh-pages
+  github-token: $GH_TOKEN  
+  on:
+    branch: master
+
 notifications:
   email: false
 
 branches:
   only:
-  - gh-pages
   - master
 
 env:
