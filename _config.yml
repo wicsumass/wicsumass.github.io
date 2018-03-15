@@ -83,8 +83,8 @@ collections:
 
 # GALLERY
 thumbnail_gallery:
-  width:  300
-  height: 200
+  width:  600
+  height: 400
 
 # BUILD SETTINGS
 markdown: kramdown

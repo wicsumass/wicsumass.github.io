@@ -1,8 +1,35 @@
-{% for image in page.gallery %}
-    {% if include.image == null or include.image == image.name %}
-        <a href="/{{ page.gallery-folder }}/{{ image.name }}" 
-        data-lightbox="1" title="{{ image.text }}">
-            <img src="/{{ page.gallery-folder }}/{{ image.thumb }}" title="{{ image.title }}">
-        </a>&nbsp;
-    {% endif %}
-{% endfor %}
+<!-- Generate gallery -->
+<div class="lightgallery">
+  <div class="gallery-sizer"></div>
+  {% for image in page.gallery %}
+    <div class="gallery-image">
+      <a href="/{{ page.gallery-folder }}/{{ image.name }}" 
+      data-sub-html="<h4>{{ image.title }}</h4><p>{{ image.text }}</p>"
+      class="image">
+        <img src="/{{ page.gallery-folder }}/{{ image.thumb }}" style="padding: 0"/>
+      </a>
+    </div>
+  {% endfor %}  
+</div>
+<script type="text/javascript">
+  // Start gallery
+  $(document).ready(function() {
+      $(".lightgallery").lightGallery({
+        selector: ".image"
+      }); 
+  });
+  // Init isotope
+  var gallery = $(".lightgallery").isotope({
+    percentPosition: true,
+    itemSelector: ".gallery-image",
+    masonry: {
+      columnWidth: '.gallery-sizer'
+    }
+  });
+  // Start isotope
+  $gallery.imagesLoaded().progress(
+    function(){
+      $gallery.isotope("masonry");
+    }
+  );
+</script>

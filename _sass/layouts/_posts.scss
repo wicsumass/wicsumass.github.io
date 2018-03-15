@@ -71,8 +71,28 @@ header {
         @extend %padding-regular;
         padding-bottom: 0;
     }
-    .gallery {
+    .lightgallery {
         @extend %padding-regular;
+        .gallery-sizer{
+            width: 50%;
+        }
+        .gallery-image{
+            $column-width: 0.5;
+            $column-medium: calc( ( 100% - #{$padding-large} / 1.6 * 2 ) * #{$column-width} - 0.5%);
+            $column-small: calc( ( 100% - #{$padding-small} * 2 ) * #{$column-width} - 0.5%);
+            width: calc( ( 100% - #{$padding-large} * 2 ) * #{$column-width} - 0.5%);
+            @media (max-width: 1000px) {
+                width: $column-medium;
+            }
+            @media (max-width: 576px) {
+                width: $column-small;
+            }
+            .image{
+                padding: 0;
+                width: calc( 100% + 1px );
+                height: 100%;
+            }
+        }
     }
     footer {
         @extend %padding-regular;
