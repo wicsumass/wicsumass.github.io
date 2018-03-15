@@ -26,5 +26,6 @@ Place all media in `assets`. **Please** organize media by posts as it gets confu
 - [x] Update [past events](https://wicsumass.github.io/past-events) page (currently shows default filler from theme) (**Temporarily disabled; Completed 03/15/18**) 
 - [ ] Change header size on desktop (works fine on mobile, too short for desktop) 
 - [x] Create and use placeholder favicon (**Completed 03/10/18**) 
-- [ ] Decide on material for [front page](https://wicsumass.github.io) - news feed or others? (**Completed 03/15/18**) 
-- [ ] Add `news` page (**Completed 03/15/18**)
+- [x] Decide on material for [front page](https://wicsumass.github.io) - news feed or others? (**Completed 03/15/18**) 
+- [x] Add `news` page (**Completed 03/15/18**)
+- [ ] Add social media wall with Facebook/Instagram/Twitter integration
