@@ -10,7 +10,8 @@ deploy:
   keep-history: true
   local_dir: _site
   target-branch: master
-  github-token: $GH_TOKEN  
+  github-token: $GH_TOKEN 
+  committer-from-gh: true 
   on:
     branch: src
 
