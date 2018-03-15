@@ -48,9 +48,9 @@ theme_settings:
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
-  portfolio: true
+  portfolio: false
   search: true
-  tags: true
+  tags: false
   
   
   # Localization strings
@@ -72,13 +72,16 @@ theme_settings:
   post_navigation: true
 
 # PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
+# paginate: 5
+# paginate_path: "blog/page:num"
+pagination: 
+  enabled: true
+  per_page: 5
 
 # PORTFOLIO
 collections:
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:name
 
 # GALLERY
@@ -92,6 +95,6 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, rmagick]
+plugins: [jekyll-paginate-v2, jekyll-seo-tag, rmagick]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png","vendor"]
