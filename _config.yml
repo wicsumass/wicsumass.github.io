@@ -17,11 +17,13 @@ theme_settings:
      <p> Welcome to the website of WiCS@UMass, a community for undergraduate women and non-binary students in computing. </p>
   header_text_feature_image: assets/img/cover.jpg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+      <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+      Making the new normal // Made with <i class="icon ion-heart"></i> by the WiCS Co-Chairs
+
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: wicsumass@gmail.com
   behance:
   bitbucket:
   dribbble:
@@ -48,9 +50,9 @@ theme_settings:
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
-  portfolio: true
+  portfolio: false
   search: true
-  tags: true
+  tags: false
   
   
   # Localization strings
@@ -72,13 +74,16 @@ theme_settings:
   post_navigation: true
 
 # PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
+# paginate: 5
+# paginate_path: "blog/page:num"
+pagination: 
+  enabled: true
+  per_page: 5
 
 # PORTFOLIO
 collections:
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:name
 
 # GALLERY
@@ -92,6 +97,6 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, rmagick]
+plugins: [jekyll-paginate-v2, jekyll-seo-tag, rmagick]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png","vendor"]

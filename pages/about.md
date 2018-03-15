@@ -2,7 +2,8 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/circuit.jpeg" 
+feature-img: "assets/img/pexels/computer.jpeg" 
+order: 1
 ---
 
 #### About Us
@@ -17,4 +18,7 @@ Jesica Quinones, UMass CS/Math '19 | Ani Gevorgyan, UMass CS '19
 ---|---
 ![AR]({{ site.baseurl }}/assets/img/profile/ari.jpg) | ![SC]({{ site.baseurl }}/assets/img/profile/serena.jpg) 
 ---|---
-Ari Rosenthal, UMass CS '19 | Serena Chan, UMass CS/Math '21		  
+Ari Rosenthal, UMass CS '19 | Serena Chan, UMass CS/Math '21	
+
+#### Faculty advisor 
+[Professor Arjun Guha](https://people.cs.umass.edu/~arjun/home/)	  

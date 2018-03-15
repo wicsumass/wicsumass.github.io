@@ -19,7 +19,8 @@
     
     <!-- Menu -->
     <ul>
-        {% for page in site.pages %}
+        {% assign sorted_pages = site.pages | sort:"order" %}
+        {% for page in sorted_pages %}
         {% if page.title and page.hide != true %}
         <li class="separator">
             |
