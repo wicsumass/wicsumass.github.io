@@ -17,8 +17,9 @@ theme_settings:
      <p> Welcome to the website of WiCS@UMass, a community for undergraduate women and non-binary students in computing. </p>
   header_text_feature_image: assets/img/cover.jpg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
-
+      <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+      Making the new normal // Made with <i class="icon ion-heart"></i> by the WiCS Co-Chairs
+      
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
   email_address: # Full email address, e.g. "sam@example.com"
