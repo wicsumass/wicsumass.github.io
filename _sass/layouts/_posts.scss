@@ -73,14 +73,20 @@ header {
     }
     .lightgallery {
         @extend %padding-regular;
+        padding-top: 0;
         .gallery-sizer{
-            width: 50%;
+            padding: 0;
+            width: 33.333%;
+            @media (max-width: 1000px) {
+                width: 50%;
+            }
         }
         .gallery-image{
+            $column-large: 0.33333;
             $column-width: 0.5;
             $column-medium: calc( ( 100% - #{$padding-large} / 1.6 * 2 ) * #{$column-width} - 0.5%);
             $column-small: calc( ( 100% - #{$padding-small} * 2 ) * #{$column-width} - 0.5%);
-            width: calc( ( 100% - #{$padding-large} * 2 ) * #{$column-width} - 0.5%);
+            width: calc( ( 100% - #{$padding-large} * 2 ) * #{$column-large} - 0.5%);
             @media (max-width: 1000px) {
                 width: $column-medium;
             }
