@@ -19,10 +19,11 @@ theme_settings:
   footer_text: >
       <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
       Making the new normal // Made with <i class="icon ion-heart"></i> by the WiCS Co-Chairs
-      
+
+
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: wicsumass@gmail.com
   behance:
   bitbucket:
   dribbble:
