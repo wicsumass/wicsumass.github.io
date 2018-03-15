@@ -8,6 +8,7 @@ deploy:
   provider: pages
   skip-cleanup: true
   keep-history: true
+  local_dir: _site
   target-branch: master
   github-token: $GH_TOKEN  
   on:
