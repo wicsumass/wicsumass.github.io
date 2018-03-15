@@ -1,3 +1,22 @@
----
-layout: feed
----
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>WiCS at UMass Amherst</title>
+        <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+        <link>https://wicsumass.github.io/</link>
+        <description>Representing the undergraduate women in computer science community at UMass Amherst</description>
+        <pubDate>Thu, 15 Mar 2018 19:30:06 +0000</pubDate>
+        
+        <item>
+            <title>WECode 2018</title>
+            <link>/2018/03/09/wecode18.html</link>
+            <guid isPermaLink="true">/2018/03/09/wecode18.html</guid>
+            <description>&lt;p&gt;Last weekend, WiCS organized and led a group of undergraduates (along with a few graduate students) joined more than 500 other engineers at Harvard for WECode 2018, a women in CS conference that aims to promote diversity. We had the pleasure of listening to captivating speakers, mingle with other women and men passionate about diversity, and learn a whole lot in the process!&lt;/p&gt;
+
+&lt;p&gt;WiCS is proud to provide travel and ticket reimbursement to undergraduates attending the event - if you attended the event but didn’t let us know/haven’t been reimbursed yet, reach out to one of the co-chairs! Check out some photos we took at WECode below:&lt;/p&gt;
+</description>
+            <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
+        </item>
+        
+    </channel>
+</rss>
