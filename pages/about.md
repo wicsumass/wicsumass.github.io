@@ -13,8 +13,8 @@ Women in Computer Science at UMass Amherst (WiCS @ UMass Amherst) is a student o
 
 ![JQ]({{ site.baseurl }}/assets/img/profile/jesica.jpg) | ![AG]({{ site.baseurl }}/assets/img/profile/ani.jpg)   
 ---|---
-Jesica Quiones, UMass CS/Math '19 | Ani Gevorgyan, UMass CS '19			  
+Jesica Quinones, UMass CS/Math '19 | Ani Gevorgyan, UMass CS '19			  
 ---|---
 ![AR]({{ site.baseurl }}/assets/img/profile/ari.jpg) | ![SC]({{ site.baseurl }}/assets/img/profile/serena.jpg) 
 ---|---
-Arielle Rosenthal, UMass CS '19 | Serena Chan, UMass CS/Math '21		  
+Ari Rosenthal, UMass CS '19 | Serena Chan, UMass CS/Math '21		  
