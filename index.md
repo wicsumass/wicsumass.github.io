@@ -3,13 +3,13 @@ layout: home
 title: Home
 order: 0
 ---
-### Feeling overwhelmed by the CS community at UMass?
+### Looking for other girls who code and geek out like you?
 
 The **WiCS Chapter at UMass** mainly serves undergraduate female/femme/non-binary CS majors at UMass and seeks to adovocate for and unite the community! 
 
 Here's a list of activities we plan to hold during Spring 2018:
 - Grad school panel
-- HackerRank and Facemasks
+- HackerRank & Facemasks night
 - WiCS logo contest
 - SheSpeaks (inspired by SheHacks Boston)
 

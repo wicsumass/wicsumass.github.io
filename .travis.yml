@@ -1,16 +1,26 @@
 language: ruby
 exclude: [vendor]
 rvm:
-- 2.3.3
+- 2.3.4
 script: "bundle install & bundle exec jekyll build"
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  local_dir: _site
+  target-branch: master
+  github-token: $GH_TOKEN 
+  committer-from-gh: true 
+  on:
+    branch: src
 
 notifications:
   email: false
 
 branches:
   only:
-  - gh-pages
-  - master
+  - src
 
 env:
   global:

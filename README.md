@@ -1,4 +1,5 @@
 # Women in CS at UMass Amherst
+[![Build Status](https://travis-ci.org/wicsumass/wicsumass.github.io.svg?branch=src)](https://travis-ci.org/wicsumass/wicsumass.github.io)
 
 Website for the UMass Amherst chapter of Women in CS (WiCS@UMass). Based on [Type-on-Strap](https://github.com/Sylhare/Type-on-Strap); both the Type-on-Strap and the [Type theme](https://github.com/rohanchandra/type-theme) page, on which ToS is based on, has some useful information on front matter conventions. 
 
@@ -24,7 +25,7 @@ Place all media in `assets`. **Please** organize media by posts as it gets confu
 - [x] Fix and enrich posts from WECode (**Completed 03/14/18**)
 - [x] Fix thumbnail/gallery issues (**Completed 03/15/18**)
 - [x] Update [past events](https://wicsumass.github.io/past-events) page (currently shows default filler from theme) (**Temporarily disabled; Completed 03/15/18**) 
-- [ ] Change header size on desktop (works fine on mobile, too short for desktop) 
+- [x] Change header size on desktop (**Changed to fixed header, Completed 03/15/18**) 
 - [x] Create and use placeholder favicon (**Completed 03/10/18**) 
 - [x] Decide on material for [front page](https://wicsumass.github.io) - news feed or others? (**Completed 03/15/18**) 
 - [x] Add `news` page (**Completed 03/15/18**)
